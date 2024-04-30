@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "latinagirls.tube-admin": {
+    "lg-tube-admin": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/latinagirls.tube-admin",
+            "outputPath": "dist/lg-tube-admin",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -153,13 +153,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "latinagirls.tube-admin:build:production"
+              "browserTarget": "lg-tube-admin:build:production"
             },
             "development": {
-              "browserTarget": "latinagirls.tube-admin:build:development"
+              "browserTarget": "lg-tube-admin:build:development"
             },
             "test": {
-              "browserTarget": "latinagirls.tube-admin:build:test"
+              "browserTarget": "lg-tube-admin:build:test"
             }
           },
           "defaultConfiguration": "production"
@@ -167,7 +167,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "latinagirls.tube-admin:build"
+            "browserTarget": "lg-tube-admin:build"
           }
         },
         "test": {
