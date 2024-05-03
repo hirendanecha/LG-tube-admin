@@ -11,12 +11,12 @@ export const navItems: INavData[] = [
     // }
   },
   {
-    name: 'Connection',
+    name: 'Girls!',
     url: '/community',
     iconComponent: { name: 'cil-bookmark' },
   },
   {
-    name: 'Promote You!',
+    name: 'Girl Pages',
     url: '/pages',
     iconComponent: { name: 'cil-layers' },
   },
